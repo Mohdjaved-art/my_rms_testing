@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+    <string name="h1">The Power House\nThat Keeps Your\n World Running</string>
+
+    <string name="line">------------------------------------------ or -----------------------------------------</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

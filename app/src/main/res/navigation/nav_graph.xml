@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Login Fragment -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.eapro.myapplication.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <!-- Navigation action to Users Registration Fragment -->
+        <action
+            android:id="@+id/action_loginFragment_to_usersRegistationFragment"
+            app:destination="@id/usersRegistationFragment" />
+    </fragment>
+
+    <!-- Users Registration Fragment -->
+    <fragment
+        android:id="@+id/usersRegistationFragment"
+        android:name="com.eapro.myapplication.UsersRegistationFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_users_registation">
+        <!-- Navigation action back to Login Fragment -->
+        <action
+            android:id="@+id/action_usersRegistationFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/alertFragment"
+        android:name="com.eapro.myapplication.AlertFragment"
+        android:label="fragment_alert"
+        tools:layout="@layout/fragment_alert" />
+    <fragment
+        android:id="@+id/inverterSettingFragment"
+        android:name="com.eapro.myapplication.InverterSettingFragment"
+        android:label="fragment_inverter_setting"
+        tools:layout="@layout/fragment_inverter_setting" />
+    <fragment
+        android:id="@+id/downloadFragment"
+        android:name="com.eapro.myapplication.DownloadFragment"
+        android:label="fragment_download"
+        tools:layout="@layout/fragment_download" />
+
+</navigation>

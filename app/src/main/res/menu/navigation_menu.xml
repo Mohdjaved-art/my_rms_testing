@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/email_card" /> <!-- Replace with your icon -->
+
+    <item
+        android:id="@+id/nav_alert"
+        android:title="Alert"
+        android:icon="@drawable/email_card" /> <!-- Replace with your icon -->
+
+    <item
+        android:id="@+id/nav_data"
+        android:title="Data"
+        android:icon="@drawable/email_card" /> <!-- Replace with your icon -->
+
+    <item
+        android:id="@+id/nav_inverter_setting"
+        android:title="Inverter Setting"
+        android:icon="@drawable/email_card" /> <!-- Replace with your icon -->
+
+    <item
+        android:id="@+id/nav_download"
+        android:title="Download"
+        android:icon="@drawable/email_card" /> <!-- Replace with your icon -->
+
+    <item
+        android:id="@+id/nav_video_tutorial"
+        android:title="Video Tutorial"
+        android:icon="@drawable/email_card" /> <!-- Replace with your icon -->
+
+    <item
+        android:id="@+id/nav_add_new_system"
+        android:title="Add New System"
+        android:icon="@drawable/email_card" /> <!-- Replace with your icon -->
+
+    <item
+        android:id="@+id/nav_my_solar_status"
+        android:title="My Solar Status"
+        android:icon="@drawable/email_card" /> <!-- Replace with your icon -->
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log Out"
+        android:icon="@drawable/email_card" /> <!-- Replace with your icon -->
+
+</menu>

@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset
+            android:insetLeft="5dp"
+            android:insetTop="15dp"
+            android:insetRight="55dp"
+            android:insetBottom="5dp">
+            <bitmap
+                android:src="@drawable/email_card"
+                />
+        </inset>
+    </item>
+</layer-list>
